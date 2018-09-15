@@ -1,0 +1,163 @@
+/* Header */
+header {
+	width: 100%;
+    height: 100px;
+    background: DodgerBlue;
+}
+
+.logo {
+    height: 80px;
+    margin: 10px;
+    padding-left: 100px;
+}
+
+.contact-info {
+	position: absolute;
+	right: 100px;
+	top: 15px;
+}
+
+#contact-info li {
+	display: block;
+    color: white;
+    margin: 10px;
+    font-size: 16px;
+}
+
+/* Footer */
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+    body {
+    height: 95%;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+      flex: 0 0 auto;
+      width: 100%;
+      height: 90px;
+      background: DodgerBlue;
+}
+#footercontext {
+    color: White;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+#footercontext img {
+    height: 35px;
+    width: 35px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+
+/* Body for all pages*/
+body {
+    background: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 1300px 700px;
+    background-color: #F0FFFF;
+    font-family: Georgia;
+}
+
+td {
+    margin: 10px;
+    padding: 10px;
+    background: Cornsilk;
+}
+
+/* Home Page */
+#textcontent1 {
+    color: DarkBlue;
+    font-size: 24px;
+    background: rgba(255,255,255,.6);
+}
+
+#textcontent2 {
+    color: DarkBlue;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 10px;
+    font-style: italic;
+}
+
+.container li {
+    list-style: none;
+    text-indent: -1em;
+    font-style: italic;
+     padding-left: 50px
+}
+
+.container li::before {
+    content: '\E260';
+    padding-right: 5px;
+    color: DarkBlue;
+}
+
+/* Conditions Page */
+.conditions-context {
+    margin-top: 60px;
+    padding: 10px;
+    background: rgba(255,255,255,.7);
+    margin-left: 350px;
+    margin-right: 350px;
+    font-size: 12px;
+    color: Black;
+}
+
+/* Register Page */
+#registration-table {
+    margin-top: 60px;
+    margin-left: 750px;
+    border: 5px ridge DarkBlue;
+}
+
+#registration-table td {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* Carchoosing Page */
+#order-table {
+
+}
+
+#order-table td {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#car-database-table {
+
+}
+
+#order-page {
+margin-top: 60px;
+
+}
+
+/* Login Page */
+#login-table {
+    margin-top: 60px;
+    margin-left: 750px;
+    border: 5px ridge DarkBlue;
+}
+
+#login-table td {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
