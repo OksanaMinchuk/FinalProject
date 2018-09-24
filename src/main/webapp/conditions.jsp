@@ -20,33 +20,33 @@
             <span>
                 <h1>General Terms of Use</h1>
                 <p>Important Information<br/>
-                   By using our website you agree to these general Terms of Use, and to the terms of our Privacy Policy. Any queries about these terms or a car rental should be directed to EconomyCarRentals.
-                   The above constitute a request from you to EconomyCarRentals to find a car rental deal from one of our wide range of providers.
-                   Any contract entered into at the local destination is exclusively between yourself and the car rental provider and under no instance is EconomyCarRentals a party to this contract.
+                   By using our website you agree to these general Terms of Use, and to the terms of our Privacy Policy. Any queries about these terms or a car rental should be directed to Carbooking.
+                   The above constitute a request from you to Carbooking to find a car rental deal from one of our wide range of providers.
+                   Any contract entered into at the local destination is exclusively between yourself and the car rental provider and under no instance is Carbooking a party to this contract.
                    The rental vehicle will be delivered to you directly by our provider in our capacity as acting agent.
                    Your signature on any rental contract agreement is definite proof to the acceptance of the services and terms imposed by the rental company and to the respective laws of the country in which the rental will take place.
                 </p>
                 <p>
                    Liability<br/>
-                   EconomyCarRentals accepts no liability for the refusal by the car rental company to provide the vehicle in the event of any problems having arisen with regards to the terms of your contract. We undertake no compensation or refund of any kind in respect of any costs incurred as a result of a change to your arrangements.
-                   The above is binding and applies to all contracts associated with the supply of our services excluding all other warranties and terms. No action by EconomyCarRentals will signify conformity of any other terms or conditions.
-                   In the case of any dispute arising between you and EconomyCarRentals, our liability to you, if any, is limited up to the initial amount paid to us.
+                   Carbooking accepts no liability for the refusal by the car rental company to provide the vehicle in the event of any problems having arisen with regards to the terms of your contract. We undertake no compensation or refund of any kind in respect of any costs incurred as a result of a change to your arrangements.
+                   The above is binding and applies to all contracts associated with the supply of our services excluding all other warranties and terms. No action by Carbooking will signify conformity of any other terms or conditions.
+                   In the case of any dispute arising between you and Carbooking, our liability to you, if any, is limited up to the initial amount paid to us.
                 </p>
                 <p>
                    Consequential loss<br/>
-                   EconomyCarRentals is not liable for indirect losses which occur as a side effect of the main loss or damage which are not foreseeable either by you, or the renter and EconomyCarRentals. Nor are we liable for loss of profits, loss of opportunity, consequential losses, loss of goodwill, damages or charges etc. associated to the issue.
+                   Carbooking is not liable for indirect losses which occur as a side effect of the main loss or damage which are not foreseeable either by you, or the renter and Carbooking. Nor are we liable for loss of profits, loss of opportunity, consequential losses, loss of goodwill, damages or charges etc. associated to the issue.
                 </p>
                 <p>
                    Force Majeure<br/>
-                   EconomyCarRentals cannot be held responsible for the inability to deliver the obligations, for any reason, expected under or pursuant to this booking due to any unexpected or disruptive circumstance reasonably beyond our control, hindered or prevented as a result of force majeure. In the case of Force Majeure the booking and all insurances become invalid.
+                   Carbooking cannot be held responsible for the inability to deliver the obligations, for any reason, expected under or pursuant to this booking due to any unexpected or disruptive circumstance reasonably beyond our control, hindered or prevented as a result of force majeure. In the case of Force Majeure the booking and all insurances become invalid.
                    For a confirmed booking, in the event that the local provider is unable to perform its obligations in providing the vehicle due to insolvency, we will do our best to re-direct your booking to another car rental company. In peak periods this may not be achievable.
                    In such a case where we have no alternative provider, you will be notified of this, the booking will be cancelled and the advance payment returned.
-                   EconomyCarRentals assumes no responsibility for the accuracy and validity of any travel information or links provided on its website. Such resources are used at your own risk.
-                   Access to our website is normally available 24 hours a day. On the rare occasion the search engine may be temporarily unavailable due to system maintenance, updating or circumstances beyond the control of economycarrentals.com. Assistance can be sought via the customer help line.
+                   Carbooking assumes no responsibility for the accuracy and validity of any travel information or links provided on its website. Such resources are used at your own risk.
+                   Access to our website is normally available 24 hours a day. On the rare occasion the search engine may be temporarily unavailable due to system maintenance, updating or circumstances beyond the control of Carbooking.com. Assistance can be sought via the customer help line.
                    Quotes obtained for a car rental are given according to details supplied, so their accuracy depends entirely on data provided by you.
-                   At any time EconomyCarRentals reserves the right to modify the contents of its website without prior notice.
-                   No responsibility or liability can be taken by EconomyCarRentals if the terms and conditions of the rental provider as shown on the search engine differ from those at the time of pick up. Or for the failure in the rental taking place due to missing or incorrect documentation (voucher, credit card, driving licence etc.) not being presented locally.
-                   EconomyCarRentals undertakes no responsibility for extra costs incurred due to documentation having been signed for and accepted locally.
+                   At any time Carbooking reserves the right to modify the contents of its website without prior notice.
+                   No responsibility or liability can be taken by Carbooking if the terms and conditions of the rental provider as shown on the search engine differ from those at the time of pick up. Or for the failure in the rental taking place due to missing or incorrect documentation (voucher, credit card, driving licence etc.) not being presented locally.
+                   Carbooking undertakes no responsibility for extra costs incurred due to documentation having been signed for and accepted locally.
                 </p>
                 <p>
                    Booking Conditions<br/>
