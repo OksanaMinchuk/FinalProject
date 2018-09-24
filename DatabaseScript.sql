@@ -53,10 +53,10 @@ CREATE TABLE `history` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `client_id` int(11) NOT NULL,
   `cars_id` int(11) NOT NULL,
-  `rentalTime` int(11) NOT NULL,
-  `fromCity` varchar(45) NOT NULL,
-  `toCity` varchar(45) NOT NULL,
-  `isDamage` tinyint(1) NOT NULL,
+  `rentalTime` int(11) DEFAULT NULL,
+  `fromCity` varchar(45) DEFAULT NULL,
+  `toCity` varchar(45) DEFAULT NULL,
+  `isDamage` tinyint(1) DEFAULT NULL,
   `isPayDamage` tinyint(1) DEFAULT NULL,
   PRIMARY KEY (`id`,`client_id`,`cars_id`),
   KEY `fk_history_client_idx` (`client_id`),
@@ -167,4 +167,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-09-24 21:01:28
+-- Dump completed on 2018-09-24 22:10:06
