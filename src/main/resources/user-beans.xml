@@ -25,5 +25,8 @@
 
     <bean id="carDao" class="by.oksana.carbooking.dao.impl.CarDAOImpl" />
 
+    <bean id="orderDao" class="by.oksana.carbooking.dao.impl.OrderDAOImpl" />
+
+
 
 </beans>
