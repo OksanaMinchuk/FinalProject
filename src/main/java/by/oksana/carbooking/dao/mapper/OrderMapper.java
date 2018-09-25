@@ -13,8 +13,10 @@ public class OrderMapper implements RowMapper<Order> {
     @Override
     public Order mapRow(ResultSet resultSet, int i) throws SQLException {
         Order order = new Order();
-        order.setUser((User) resultSet.getObject("firstname"));
-        order.setUser((User) resultSet.getObject("lastname"));
+        // setter for User and Car
+        order.setUser((User) resultSet.getObject("firstname"));  // ???
+        order.setUser((User) resultSet.getObject("lastname"));   // ???
+
         order.setModel(resultSet.getString("model"));
         // add Date dateFrom, dateTo
         order.setFromCity(resultSet.getString("fromCity"));
