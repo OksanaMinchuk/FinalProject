@@ -3,13 +3,13 @@ package by.oksana.carbooking.model;
 import java.util.Date;
 
 public class Order {
-    User user;
-    Car car;
-    String  model;
-    Date dateFrom;
-    Date dateTo;
-    String fromCity;
-    String toCity;
+    private User user;
+    private Car car;
+    private String  model;
+    private Date dateFrom;
+    private Date dateTo;
+    private String fromCity;
+    private String toCity;
 
     public Order(User user, Car car, String model, Date dateFrom, Date dateTo, String fromCity, String toCity) {
         this.user = user;
