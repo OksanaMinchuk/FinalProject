@@ -59,6 +59,9 @@ public class CarController {
         modelAndView.addObject("car", new Car());
         modelAndView.addObject("carInfoAttr", carInfo);
         modelAndView.addObject("car", new Order());
+//        modelAndView.addObject("fromCity", order.getFromCity());
+//        modelAndView.addObject("toCity", order.getToCity());
+
 
 
         return modelAndView;
@@ -72,7 +75,8 @@ public class CarController {
         ModelAndView modelAndView = new ModelAndView("carchoosing");
         modelAndView.addObject("myCar", car.toString());  //show for check
         //orderService.registerOrder(order);
-        modelAndView.addObject("myOrder", order.toString()); //show for check
+       // modelAndView.addObject("myOrder", order.toString()); //show for check
+
 
 
 
