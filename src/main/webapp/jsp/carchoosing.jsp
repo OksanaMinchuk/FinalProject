@@ -118,6 +118,10 @@
                     <h1>${myCar}</h1>
                 </div>
 
+                <div>
+                     <p>${myOrder}</p>
+                </div>
+
         </div>
             <div>
                 <%@ include file="/jsp/footer.jsp" %>
