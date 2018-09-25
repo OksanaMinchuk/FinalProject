@@ -2,8 +2,10 @@ package by.oksana.carbooking.controller;
 
 import by.oksana.carbooking.model.Car;
 import by.oksana.carbooking.model.Login;
+import by.oksana.carbooking.model.Order;
 import by.oksana.carbooking.model.User;
 import by.oksana.carbooking.service.CarService;
+import by.oksana.carbooking.service.OrderService;
 import by.oksana.carbooking.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
@@ -31,7 +33,11 @@ public class CarController {
     @Autowired
     private UserService userService;
 
-    // поля для добавления в таблицу history
+    @Autowired
+    private OrderService orderService;
+
+/*
+
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate dateFrom;
 
@@ -40,24 +46,21 @@ public class CarController {
 
     private String fromCity;
     private String toCity;
+*/
 
 
     @RequestMapping(value = "/choosingProcess", method = RequestMethod.GET)
     public ModelAndView carListProcess(HttpServletRequest request, HttpServletResponse response) {
         ModelAndView modelAndView = new ModelAndView("carchoosing");
-        /*Map<String, String> carModels = new HashMap<>();
-        carModels.put("audi", "AUDI");
-        carModels.put("mazda", "MAZDA");
-        carModels.put("ford", "FORD");*/
         List<String> carModels = carService.getModels();
         List<Car> carInfo = carService.listCar();
 
         modelAndView.addObject("carModels", carModels);
         modelAndView.addObject("car", new Car());
         modelAndView.addObject("carInfoAttr", carInfo);
+        modelAndView.addObject("car", new Order());
 
 
-        //order
         return modelAndView;
     }
 //***********************************
@@ -65,9 +68,10 @@ public class CarController {
 
     @RequestMapping(value = "/orderCar", method = RequestMethod.POST)
     public ModelAndView carOrder(HttpServletRequest request, HttpServletResponse response,
-                                 @ModelAttribute("car") Car car) {
+                                 @ModelAttribute("car") Car car, Order order) {
         ModelAndView modelAndView = new ModelAndView("carchoosing");
-        modelAndView.addObject("myCar", car.toString());
+        modelAndView.addObject("myCar", car.toString());  //show for check
+        modelAndView.addObject("myOrder", order.toString()); //show for check
 
 
 
@@ -95,10 +99,10 @@ public class CarController {
 //***********************************
 
     // методы о вычислении стоимости в какую часть проекта???
-    private long getDaysCountBetweenDates(LocalDate dateFrom, LocalDate dateTo) {
-        long days = ChronoUnit.DAYS.between(dateFrom, dateTo);
-        return days;
-    }
+//    private long getDaysCountBetweenDates(LocalDate dateFrom, LocalDate dateTo) {
+//        long days = ChronoUnit.DAYS.between(dateFrom, dateTo);
+//        return days;
+//    }
 //***********************************
 
 
