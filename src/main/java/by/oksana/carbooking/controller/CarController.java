@@ -71,6 +71,7 @@ public class CarController {
                                  @ModelAttribute("car") Car car, Order order) {
         ModelAndView modelAndView = new ModelAndView("carchoosing");
         modelAndView.addObject("myCar", car.toString());  //show for check
+        //orderService.registerOrder(order);
         modelAndView.addObject("myOrder", order.toString()); //show for check
 
 
