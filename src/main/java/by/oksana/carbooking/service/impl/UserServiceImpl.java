@@ -23,4 +23,9 @@ public class UserServiceImpl implements UserService {
     public User validateUser(Login login) {
         return userDao.validateUser(login);
     }
+
+    @Override
+    public User selectUser(String username) {
+        return selectUser(username);
+    }
 }

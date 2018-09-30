@@ -1,12 +1,16 @@
 package by.oksana.carbooking.model;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.util.Date;
 
 public class Order {
     private User user;
     private Car car;
     private String  model;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date dateFrom;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date dateTo;
     private String fromCity;
     private String toCity;

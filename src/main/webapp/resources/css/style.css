@@ -132,7 +132,7 @@ td {
 
 /* Carchoosing Page */
 #order-table {
-
+    border: 5px ridge DarkBlue;
 }
 
 #order-table td {
@@ -141,7 +141,7 @@ td {
 }
 
 #car-database-table {
-
+    border: 5px ridge DarkBlue;
 }
 
 #order-page {

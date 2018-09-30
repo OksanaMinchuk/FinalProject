@@ -22,7 +22,7 @@
                             <form:label path="username">Username: </form:label>
                         </td>
                         <td>
-                            <form:input path="username" name="username" id="username" required="required"/>
+                            <form:input path="username" name="username" id="username" required="required" class="form-control"/>
                         </td>
                     </tr>
                     <tr>
@@ -30,7 +30,7 @@
                             <form:label path="password">Password:</form:label>
                         </td>
                         <td>
-                            <form:password path="password" name="password" id="password" required="required"/>
+                            <form:password path="password" name="password" id="password" required="required" class="form-control"/>
                         </td>
                     </tr>
                     <tr>

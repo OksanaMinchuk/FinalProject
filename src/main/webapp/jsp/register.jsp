@@ -53,7 +53,7 @@
                                <form:label path="numPassport">Passport number</form:label>
                           </td>
                           <td>
-                               <form:input path="numPassport" name="numPassport" id="numPassport" required="required" class="form-control" type="text" placeholder="AB1234567" pattern="[A-Z]{2}+[0-9]{7}" title="AB1234567"/>
+                               <form:input path="numPassport" name="numPassport" id="numPassport" required="required" class="form-control" type="text" placeholder="AB123456" pattern="[A-Z]{2}+[0-9]{6}" title="AB123456"/>
                           </td>
                     </tr>
                     <tr>

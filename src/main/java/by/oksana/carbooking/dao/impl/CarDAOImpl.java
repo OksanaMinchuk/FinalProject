@@ -4,12 +4,15 @@ import by.oksana.carbooking.dao.CarDAO;
 import by.oksana.carbooking.dao.mapper.CarMapper;
 import by.oksana.carbooking.dao.mapper.ModelMapper;
 import by.oksana.carbooking.model.Car;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-import javax.sql.DataSource;
-import java.util.ArrayList;
+
 import java.util.List;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 public class CarDAOImpl implements CarDAO {
 
@@ -27,6 +30,8 @@ public class CarDAOImpl implements CarDAO {
 
     private final static String SQL_UPDATE_CAR_RETURN = "UPDATE cars SET count=count+1 WHERE model=?";
 
+    private static final Logger log = LoggerFactory.getLogger(CarDAOImpl.class);
+
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
@@ -43,20 +48,22 @@ public class CarDAOImpl implements CarDAO {
     @Override
     public List<String> getModels() {
         List<String> models = jdbcTemplate.query(SQL_SELECT_DISTINCT_CAR_FROM_TABLE, new ModelMapper());
+        log.info("get models from table ");
         return models;
     }
 
     @Override
     public Car getCarByModel(String model) {
         Car car = jdbcTemplate.queryForObject(SQL_SELECT_CAR_WHERE_MODEL, new Object[]{model}, new CarMapper());
+        log.info("get car by model from table ");
         return car;
     }
 
 
-    // запрос автомобилей из базы данных !!!!!!!!!
     @Override
     public List<Car> listCar() {
         List<Car> cars = jdbcTemplate.query(SQL_SELECT_ALL_CAR_FROM_TABLE, new CarMapper());
+        log.info("get list of all cars from table ");
         return cars;
     }
 
@@ -66,14 +73,13 @@ public class CarDAOImpl implements CarDAO {
     }
 
 
-    // при заказе счетчик count уменьшается на 1, если в БД 0 шт, заказ недоступен ???????
+    // ***********************************************
     @Override
     public Car orderCar(int count) {
 
         return null;
     }
 
-    // при возврате счетчик count увеличивается на 1 ?????
     @Override
     public Car returnCar(int count) {
 
