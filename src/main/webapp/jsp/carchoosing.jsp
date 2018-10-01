@@ -18,10 +18,10 @@
 
         <div class="row" id="order-page" align="center">
             <div class="col-sm-2"></div>
-                <div class="col-sm-4" id="order-table" align="center">
+                <div class="col-sm-4"  align="center">
 
                     <form:form id="bookForm" modelAttribute="car" action="orderCar" method="post">
-                        <table>
+                        <table id="order-table">
                             <tr>
                                 <td></td>
                                 <td>
@@ -52,8 +52,8 @@
                     </form:form>
                 </div>
 
-                    <div class="col-sm-4" id="car-database-table" align="center">
-                        <table>
+                    <div class="col-sm-4"  align="center">
+                        <table id="car-database-table">
                                 <tr>
                                     <td colspan="3">
                                         <p align="center" style="color: DodgerBlue; font-weight: bold">Cars available for order</p>
