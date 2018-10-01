@@ -51,17 +51,14 @@ public class OrderController {
         modelAndView.addObject("order", order);
         modelAndView.addObject("message", "Thank you!!");
 
+        orderService.registerOrder(order);
+        return modelAndView;
 
         /*Car car = carService.getCarByModel(car.getModel());
         Order currentOrder = new Order();
         long days = orderService.getDaysCountBetweenDates(order.getDateFrom(), order.getDateTo());
         long sumPrice = days*car.getPricePerDay();
         modelAndView.addObject("sumPrice", sumPrice);*/
-        //orderService.registerOrder(order);
 
-
-        return modelAndView;
     }
-
-
 }
