@@ -19,9 +19,9 @@
         <div class="row" id="order-page" align="center">
         <div class="col-sm-2"></div>
 
-                <div class="col-sm-4" id="order-table" align="center">
+                <div class="col-sm-4"  align="center">
                     <form:form id="infoForm" modelAttribute="order" action="orderInfo" method="post">
-                        <table>
+                        <table id="order-table">
                              <tr>
                                  <td>
                                       <form:label path="dateFrom">Date from</form:label>
